@@ -24,7 +24,7 @@ import pandas as pd
 import copy #导入深拷贝需要的包
 from matplotlib import pyplot as plt
 plt.rcParams['font.sans-serif'] = ['SimHei']
-from sklearn.impute import SimpleImputer   #导入IMputer包，作用是填补缺失值
+from sklearn.impute import SimpleImputer   #导入IMputer包，处理缺失数据以后就用这个包
 from sklearn import linear_model  #导入线性模型
 
 #返回一个进行处理后的DataFrame
